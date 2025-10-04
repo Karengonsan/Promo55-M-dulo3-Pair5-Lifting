@@ -29,4 +29,6 @@ const Preview = ({ name, email, region, paymentType, legalTerms }) => {
   );
 };
 
+
+
 export default Preview;
