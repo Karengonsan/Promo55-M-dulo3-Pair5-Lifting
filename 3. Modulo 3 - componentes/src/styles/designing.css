@@ -1,0 +1,32 @@
+.designing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-image: url("../../public/images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 60px);
+  text-align: center;
+}
+.designing__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.designing__title {
+  padding-top: 80px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0c474b;
+  text-align: center;
+}
+.designing__text {
+  font-size: 16px;
+  color: #333;
+  max-width: 600px;
+}

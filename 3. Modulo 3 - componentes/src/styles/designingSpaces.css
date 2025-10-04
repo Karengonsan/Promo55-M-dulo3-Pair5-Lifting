@@ -1,0 +1,12 @@
+.designing-spaces {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.designing-spaces__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* opcional */
+}

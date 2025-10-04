@@ -1,0 +1,22 @@
+.page__logo {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  max-width: 80%;
+}
+
+@media (min-width: 768px) {
+  .page__logo {
+    top: 10%;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page__logo {
+    top: 17%;
+    width: 400px;
+  }
+}

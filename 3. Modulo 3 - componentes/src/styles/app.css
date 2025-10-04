@@ -1,0 +1,264 @@
+
+.page__btn2 {
+  display: inline-block;
+  text-decoration: underline;
+  background-color: #ff975a;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.page__btn2:hover {
+  background-color: #0c474b;
+}
+
+.enjoy__designing {
+  width: 100%;
+  background-color: #f0ebe5;
+  color: #0c474b;
+  text-align: center;
+  padding: 80px 30px;
+}
+
+.enjoy__designing h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.enjoy__designing p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.page__btn3 {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0c474b;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  width: auto;
+  align-self: center;
+}
+
+/*Imagen de salto de página*/
+
+.designing__spaces {
+  width: 100%;
+}
+
+.designing__spaces img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #0c474b;
+  color: #ffffff;
+  padding: 40px 20px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer__container h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #b6c8c9;
+}
+
+.footer__container ul {
+  list-style: none;
+}
+
+.footer__container a {
+  color: #b6c8c9;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer__container li{
+  color: #b6c8c9;
+  font-size: 14px;
+}
+
+.footer__container a:hover {
+  text-decoration: underline;
+}
+
+.footer__container img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.footer__social a {
+  font-size: 20px;
+  color: #b6c8c9;
+  transition: color 0.3s ease;
+}
+
+.footer__social a:hover {
+  color: #ff975a
+}
+
+.scroll-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 999;
+  transition: background-color 0.3s;
+}
+
+.scroll-up:hover {
+  background-color: #0c474b;
+}
+
+/* ---------------------> MEDIA QUERIES <--------------------*/
+
+/* =================== TABLET (>=768px) ===================== */
+
+@media (min-width: 768px) {
+/* MÓDULO 1: Título y botón a 
+media altura y alineados a la izquierda */
+
+  .page__content {
+    justify-content: center; 
+    align-items: flex-start; 
+    padding: 0 50px;
+    text-align: left;
+  }
+
+  .page__title {
+    padding-top: 0; 
+    padding-right: 100px;
+    text-align: left;
+    font-size: 32px;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+
+  .page__btn {
+    align-self: flex-start; 
+  }
+
+/*MODULO 3: ENVIO GRATIS*/
+
+/*MODULO 4: DISFRUTA CREANDO*/
+
+/*IMAGEN*/
+
+
+}
+
+/* ======================
+DESKTOP (>=1728px)
+====================== */
+
+@media (min-width: 1024px) {
+
+
+ .page__logo {
+    object-fit: contain;
+    
+  }
+  .page__logo img {
+    padding-right: 500px;
+  }
+ 
+  .page__title {
+    padding-top: 0;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: left;
+    font-size: 32px;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+
+  .page__btn {
+    align-self: flex-start;
+    margin-left: 100px;
+
+  }
+
+    .designing__container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .enjoy__designing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 90px 300px 90px 90px;
+    flex: 1;
+  }
+
+  .designing__spaces {
+    width: 50%;
+  }
+
+  .designing__spaces img {
+    flex: 1;
+  }
+
+  .enjoy__designing {
+    min-height: auto;
+
+  }
+  .enjoy__designing h2 {
+    align-items: center;
+    margin: 0 0 0 50px;
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .enjoy__designing p {
+    margin: 0 0 0 50px;
+    padding-right: 120px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .page__btn3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 200px 20px 1px;
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+
+  .section__features {
+    padding: 50px;
+  }
+}

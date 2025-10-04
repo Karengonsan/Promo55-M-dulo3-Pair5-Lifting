@@ -1,0 +1,90 @@
+.features {
+  background-color: #f0ebe5;
+  padding: 45px 45px;
+  text-align: center;
+}
+
+.features__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.features__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.features__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.features__subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0c474b;
+}
+
+.features__description {
+  font-size: 14px;
+  color: #0c474b;
+  max-width: 300px;
+}
+
+/* ======================
+TABLET (>=768px)
+====================== */
+@media (min-width: 768px) {
+  .features__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    gap: 30px;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .features__title {
+    grid-column: 1 / -1; /* ocupa toda la fila */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .features__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features__subtitle {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .features__description {
+    font-size: 14px;
+    max-width: 250px;
+  }
+}
+
+/* ======================
+DESKTOP (>=1728px)
+====================== */
+
+@media (min-width: 1728px) {
+  .features {
+    padding: 100px 200px;
+  }
+
+  .features__title {
+    padding: 20px 400px;
+  }
+
+  .features__description {
+    max-width: 600px;
+    padding: 0 150px;
+    text-align: center;
+  }
+}

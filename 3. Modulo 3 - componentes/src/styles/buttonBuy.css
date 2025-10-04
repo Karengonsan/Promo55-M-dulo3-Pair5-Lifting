@@ -1,0 +1,17 @@
+.page__btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0c474b;
+  color: #f0ebe5;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  width: auto;
+  align-self: center;
+}
+
+.page__btn:hover {
+  background-color: #0c474b;
+}
