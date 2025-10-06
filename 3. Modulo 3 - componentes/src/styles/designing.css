@@ -4,29 +4,46 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  background-image: url("../../public/images/header.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: calc(100vh - 60px);
   text-align: center;
+  width: 100%;
 }
 .designing__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  padding: 40px 0;
 }
 
-.designing__title {
-  padding-top: 80px;
-  font-size: 24px;
-  font-weight: 600;
-  color: #0c474b;
-  text-align: center;
+/* ---------------------> MEDIA QUERIES <--------------------*/
+
+/* =================== TABLET (>=768px) ===================== */
+@media (min-width: 768px) {
+  .designing {
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .designing-spaces {
+    width: 50%;
+  }
+  .designing__content {
+    text-align: left;
+    align-items: flex-start;
+  }
 }
-.designing__text {
-  font-size: 16px;
-  color: #333;
-  max-width: 600px;
+
+/* =================== DESKTOP (>=1024px) =================== */
+@media (min-width: 1024px) {
+  .designing {
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .designing-spaces {
+    width: 100%;
+  }
+  .designing__content {
+    text-align: center;
+    align-items: center;
+  }
 }

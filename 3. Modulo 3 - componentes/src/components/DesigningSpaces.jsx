@@ -4,7 +4,7 @@ import '../styles/designingSpaces.css'
 
 const DesigningSpaces = () => {
   return (
-    <section className=".designing-spaces">
+    <section className="designing-spaces">
       <img 
       src={IconCreate} 
       alt="creando-espacios"

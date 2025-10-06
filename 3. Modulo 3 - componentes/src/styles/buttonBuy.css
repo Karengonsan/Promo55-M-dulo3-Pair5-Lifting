@@ -6,7 +6,7 @@
   padding: 8px 16px;
   border-radius: 4px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 10px;
   transition: background-color 0.3s;
   width: auto;
   align-self: center;
@@ -14,4 +14,24 @@
 
 .page__btn:hover {
   background-color: #0c474b;
+}
+
+/* ======================
+    MEDIA QUERIES 
+   ======================*/
+
+/* ======================
+   TABLET
+   ====================== */
+@media (min-width: 768px) {
+  .page__btn {
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+/* ======================
+   DESKTOP (>=1728px)
+   ====================== */
+@media (min-width: 1024px) {
+
 }

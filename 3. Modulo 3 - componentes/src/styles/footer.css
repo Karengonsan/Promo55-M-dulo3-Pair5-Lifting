@@ -3,7 +3,7 @@
   justify-content: center;
   background-color: #0c474b;
   color: #ffffff;
-  padding: 40px 20px;
+  padding: 0 20px;
 }
 
 .footer__container {
@@ -22,6 +22,7 @@
 
 .footer__container ul {
   list-style: none;
+  padding: 0;
 }
 
 .footer__container a {
@@ -60,6 +61,26 @@
 .footer__social a:hover {
   color: #ff975a;
 }
+
+.scroll-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  z-index: 999;
+  transition: background-color 0.3s;
+}
+
+.scroll-up:hover {
+  background-color: #0c474b;
+}
+
+/* ---------------------> MEDIA QUERIES <--------------------*/
+
+/* =================== TABLET (>=768px) ===================== */
 
 @media (min-width: 768px) {
   .footer__container {

@@ -40,6 +40,7 @@
   list-style: none;
 }
 
+
 /* ======================
     MEDIA QUERIES 
    ======================*/
@@ -67,6 +68,14 @@
   .nav__toggle {
     display: none;
   }
+
+  .header__overlay {
+    top: 120px;
+  }
+}
+  @media (min-width: 768px) {
+
+
 }
 
 /* ======================
@@ -78,5 +87,8 @@
     position: fixed;
     top: 0;
     left: 0;
+  }
+  .header__overlay {
+    top: 150px;
   }
 }

@@ -1,10 +1,6 @@
 import "react";
 import "../styles/app.css";
 import HeaderContainer from "./HeaderContainer";
-import Logo from "./Logo";
-// import Link from "./Link";
-// import HeaderImg from "./HeaderImg";
-import Title from "./Title";
 import Features from "./Features";
 import FreeSend from "./FreeSend";
 import Designing from "./Designing";
@@ -13,9 +9,7 @@ const App = () => {
   return (
     <>
       <HeaderContainer />
-      <Logo />
       <main>
-        <Title />
         <Features />
         <FreeSend />
         <Designing />

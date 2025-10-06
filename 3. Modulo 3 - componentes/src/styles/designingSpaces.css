@@ -2,11 +2,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 20px;
+  width: 100%;
 }
 
 .designing-spaces__image {
   max-width: 100%;
   height: auto;
-  border-radius: 8px; /* opcional */
+  object-fit: cover;
+}
+/* ---------------------> MEDIA QUERIES <--------------------*/
+
+/* =================== DESKTOP (>=1024px) =================== */
+
+@media (min-width: 1024px) {
+  .designing__spaces {
+    width: 100%;
+  }
 }

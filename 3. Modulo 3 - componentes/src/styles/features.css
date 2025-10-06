@@ -87,4 +87,7 @@ DESKTOP (>=1728px)
     padding: 0 150px;
     text-align: center;
   }
+  .section__features {
+    padding: 50px;
+  }
 }

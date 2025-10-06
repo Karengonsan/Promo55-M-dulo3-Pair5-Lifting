@@ -1,8 +1,10 @@
 import "react";
-import Logo from "./Logo";
-import Link from "./Link";
-import "../styles/header-container.css";
 import HeaderImg from "./HeaderImg";
+import Link from "./Link";
+import Logo from "./Logo";
+import Title from "./Title";
+import "../styles/header-container.css";
+
 
 const HeaderContainer = () => {
   return (
@@ -31,6 +33,10 @@ const HeaderContainer = () => {
           </ul>
         </nav>
       </div>
+      
+        <Logo />
+        <Title />
+      
      </header>
   );
 };

@@ -1,0 +1,36 @@
+.page__content {
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #0c474b;
+    z-index: 9;
+}
+.page__title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .page__content {
+    top: 35vh;
+  }
+    .page__title {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page__content {
+    top: 45vh;
+    text-align: left;
+    left: 20%; 
+    transform: none;
+  }
+
+  .page__title {
+    font-size: 65px;
+  }
+}
