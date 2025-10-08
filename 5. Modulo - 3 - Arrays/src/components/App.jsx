@@ -3,22 +3,22 @@ import "../styles/app.css";
 
 const App = () => {
   const tasks = [
-    "Comprar harina, jamón y pan rallado",
-    "Hacer croquetas ricas",
-    "Ir a la puerta de un gimnasio",
-    "Comerme las croquetas mirando a la gente que entra en el gimnasio",
+    { task: "Comprar harina, jamón y pan rallado", completed: true },
+    { task: "Hacer croquetas ricas", completed: true },
+    { task: "Ir a la puerta de un gimnasio", completed: false },
+    {
+      task: "Comerme las croquetas mirando a la gente que entra en el gimnasio",
+      completed: false,
+    },
   ];
 
   return (
     <>
       <h1>Mi lista de tareas</h1>
       <ol>
-        <li>Comprar harina, jamón y pan rallado</li>
-        <li>Hacer croquetas ricas</li>
-        <li>Ir a la puerta de un gimnasio</li>
-        <li>
-          Comerme las croquetas mirando a la gente que entra en el gimnasio
-        </li>
+        {tasks.map((task) => (
+        <li className={task.completed ? "done" : ""}>{task.task}</li>
+        ))}
       </ol>
     </>
   );
